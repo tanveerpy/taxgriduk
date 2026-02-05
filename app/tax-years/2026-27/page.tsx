@@ -24,7 +24,7 @@ export default function TaxYear2026() {
             <section id="dividend-rise">
                 <div className="mt-8 mb-12 rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm aspect-video max-h-[400px] relative">
                     <img
-                        src="/images/guides/tax-future-2026.png"
+                        src="/taxgriduk/images/guides/tax-future-2026.webp"
                         alt="The 2026 Dividend Tax Rise"
                         className="object-cover w-full h-full"
                     />

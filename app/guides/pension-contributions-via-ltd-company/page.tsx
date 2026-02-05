@@ -26,7 +26,7 @@ export default function PensionGuide() {
 
             <div className="mt-8 mb-12 rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm aspect-video max-h-[400px] relative">
                 <img
-                    src="/images/guides/pension-security.png"
+                    src="/taxgriduk/images/guides/pension-security.webp"
                     alt="Pension Security and Carry Forward"
                     className="object-cover w-full h-full"
                 />

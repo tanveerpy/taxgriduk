@@ -23,7 +23,7 @@ export default function TaxYear2025() {
 
             <div className="mt-8 mb-12 rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm aspect-video max-h-[400px] relative">
                 <img
-                    src="/images/guides/tax-reference-2025.png"
+                    src="/taxgriduk/images/guides/tax-reference-2025.webp"
                     alt="Tax Rates and Thresholds 2025/26"
                     className="object-cover w-full h-full"
                 />

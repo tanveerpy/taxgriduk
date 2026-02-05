@@ -14,7 +14,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://taxgrid.co.uk'), // Replace with actual production URL
+  metadataBase: new URL('https://tanveerpy.github.io/taxgriduk'),
   title: {
     default: "UK Director Salary vs Dividend Calculator | 2025/26 & 2026/27",
     template: "%s | Tax_Grid"
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Tax_Grid",
     images: [
       {
-        url: "/og-image.png", // Ensure this exists or add a placeholder
+        url: "/taxgriduk/og-image.png",
         width: 1200,
         height: 630,
         alt: "Tax_Grid Precision HUD Interface",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "UK Director Salary vs Dividend Calculator",
     description: "Precision financial modeling for UK Limited Company Directors.",
-    images: ["/og-image.png"],
+    images: ["/taxgriduk/og-image.png"],
   },
   robots: {
     index: true,

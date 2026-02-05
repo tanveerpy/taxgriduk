@@ -24,7 +24,7 @@ export default function Compare100k() {
 
             <div className="mt-8 mb-12 rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm aspect-video max-h-[400px] relative">
                 <img
-                    src="/images/guides/navigating-complexity.png"
+                    src="/taxgriduk/images/guides/navigating-complexity.webp"
                     alt="Navigating the £100,000 Tax Trap"
                     className="object-cover w-full h-full"
                 />

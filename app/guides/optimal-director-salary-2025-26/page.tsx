@@ -25,7 +25,7 @@ export default function OptimalSalaryGuide() {
 
             <div className="mt-8 mb-12 rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm aspect-video max-h-[400px] relative">
                 <img
-                    src="/images/guides/salary-planning.png"
+                    src="/taxgriduk/images/guides/salary-planning.webp"
                     alt="Optimal Salary Planning"
                     className="object-cover w-full h-full"
                 />

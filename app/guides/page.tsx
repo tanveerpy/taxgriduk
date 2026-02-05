@@ -1,6 +1,7 @@
 'use client';
 
 import ContentLayout from '@/components/layout/ContentLayout';
+import Link from 'next/link';
 
 export default function GuidesHub() {
     const guides = [
@@ -44,14 +45,14 @@ export default function GuidesHub() {
         >
             <div className="mt-8 mb-12 rounded-[3rem] overflow-hidden border border-slate-100 shadow-sm aspect-[21/9] relative">
                 <img
-                    src="/images/guides/guides-hub-header.png"
+                    src="/taxgriduk/images/guides/guides-hub-header.webp"
                     alt="Professional Planning Lounge"
                     className="object-cover w-full h-full opacity-80"
                 />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 {guides.map((guide) => (
-                    <a
+                    <Link
                         key={guide.title}
                         href={guide.slug.startsWith('/') ? guide.slug : `/guides/${guide.slug}`}
                         className="group block p-10 rounded-[2.5rem] bg-white border border-slate-100 hover:border-indigo-100 hover:shadow-2xl hover:shadow-indigo-100/50 transition-all duration-500"
@@ -72,7 +73,7 @@ export default function GuidesHub() {
                         <p className="text-slate-500 text-sm leading-relaxed font-medium">
                             {guide.description}
                         </p>
-                    </a>
+                    </Link>
                 ))}
             </div>
 
