@@ -1,6 +1,7 @@
 'use client';
 
 import ContentLayout from '@/components/layout/ContentLayout';
+import Link from 'next/link';
 import { KeyTakeaways, TableOfContents } from '@/components/ui/ArticleFeatures';
 
 export default function Compare100k() {
@@ -161,9 +162,9 @@ export default function Compare100k() {
                 <p className="text-indigo-200 mb-10 max-w-2xl mx-auto leading-relaxed text-lg">
                     I've updated my calculator to spot this trap for you. Put your numbers in, and I'll show you exactly where your tax bill is spiking—and how we can fix it.
                 </p>
-                <a href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all text-lg font-outfit">
+                <Link href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all text-lg font-outfit">
                     Run My Calculation
-                </a>
+                </Link>
             </section>
         </ContentLayout>
     );

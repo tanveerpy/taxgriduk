@@ -1,6 +1,7 @@
 'use client';
 
 import ContentLayout from '@/components/layout/ContentLayout';
+import Link from 'next/link';
 import { KeyTakeaways, TableOfContents } from '@/components/ui/ArticleFeatures';
 
 export default function TaxYear2026() {
@@ -116,9 +117,9 @@ export default function TaxYear2026() {
                     <p className="text-indigo-200 mb-10 max-w-xl mx-auto leading-relaxed text-lg">
                         I've updated my calculator to include these 2026 rates. You can now compare your take-home pay across different years to see exactly when you should be taking your money.
                     </p>
-                    <a href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all text-lg font-outfit">
+                    <Link href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all text-lg font-outfit">
                         Run the 2026 Comparison
-                    </a>
+                    </Link>
                 </div>
             </section>
         </ContentLayout>

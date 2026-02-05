@@ -1,6 +1,7 @@
 'use client';
 
 import ContentLayout from '@/components/layout/ContentLayout';
+import Link from 'next/link';
 import { KeyTakeaways, TableOfContents } from '@/components/ui/ArticleFeatures';
 
 export default function PensionGuide() {
@@ -222,9 +223,9 @@ export default function PensionGuide() {
                     <p className="text-slate-500 font-medium mb-10 max-w-xl mx-auto leading-relaxed">
                         I've built a tool that lets you plug in your profit and see exactly how a pension contribution would drop your tax bill.
                     </p>
-                    <a href="/#calculator" className="inline-block px-10 py-5 bg-indigo-600 font-outfit text-white rounded-2xl font-black shadow-xl shadow-indigo-200 hover:bg-indigo-700 transition-all hover:-translate-y-1">
+                    <Link href="/#calculator" className="inline-block px-10 py-5 bg-indigo-600 font-outfit text-white rounded-2xl font-black shadow-xl shadow-indigo-200 hover:bg-indigo-700 transition-all hover:-translate-y-1">
                         Try the Strategy Builder
-                    </a>
+                    </Link>
                 </div>
             </section>
         </ContentLayout>

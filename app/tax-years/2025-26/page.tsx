@@ -1,6 +1,7 @@
 'use client';
 
 import ContentLayout from '@/components/layout/ContentLayout';
+import Link from 'next/link';
 import { KeyTakeaways, TableOfContents } from '@/components/ui/ArticleFeatures';
 
 export default function TaxYear2025() {
@@ -204,9 +205,9 @@ export default function TaxYear2025() {
                     <p className="text-indigo-200 mb-10 max-w-xl mx-auto leading-relaxed text-lg">
                         I've programmed all these numbers into my calculator. Plug in your expected profit, and I'll show you exactly how much tax you'll pay and the best way to take your income.
                     </p>
-                    <a href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all text-lg font-outfit">
+                    <Link href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all text-lg font-outfit">
                         Get Your Tax Estimate
-                    </a>
+                    </Link>
                 </div>
             </section>
         </ContentLayout>

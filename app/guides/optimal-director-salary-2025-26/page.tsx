@@ -1,6 +1,7 @@
 'use client';
 
 import ContentLayout from '@/components/layout/ContentLayout';
+import Link from 'next/link';
 import { KeyTakeaways, TableOfContents } from '@/components/ui/ArticleFeatures';
 
 export default function OptimalSalaryGuide() {
@@ -140,9 +141,9 @@ export default function OptimalSalaryGuide() {
                     <p className="text-indigo-200 mb-10 max-w-2xl mx-auto">
                         This guide is based on the legislation confirmed in the Autumn Budget 2024 and HMRC manuals CA44. Tax laws are subject to change, and we recommend consulting with a chartered accountant for specific personal circumstances.
                     </p>
-                    <a href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all">
+                    <Link href="/#calculator" className="inline-block px-10 py-5 bg-white text-indigo-900 rounded-2xl font-black shadow-xl hover:bg-indigo-50 transition-all">
                         Consult the Tax Matrix
-                    </a>
+                    </Link>
                 </div>
             </section>
         </ContentLayout>
