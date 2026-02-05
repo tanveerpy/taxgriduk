@@ -97,7 +97,7 @@ export default function CalculatorInterface() {
                 // Update URL with clean parameters
                 const params = new URLSearchParams();
                 Object.entries(validatedData).forEach(([key, val]) => {
-                    if (val !== undefined && val !== null && val !== '') {
+                    if (val !== undefined && val !== null) {
                         params.set(key, String(val));
                     }
                 });
